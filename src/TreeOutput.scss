@@ -1,0 +1,18 @@
+.treeNode{
+    .treeNode {
+        border: 1px solid blue;
+        padding: 5px;
+        margin: 5px;
+    }
+}
+
+.treeNode > .nodeId{
+    font-weight: bold;
+}
+.treeNode > .nodeChildren{
+    border: 1px solid orange;
+    display: flex;
+}
+
+.nodeChildren > .treeNode{
+}

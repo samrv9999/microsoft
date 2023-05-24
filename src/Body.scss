@@ -1,0 +1,16 @@
+.App-body{
+    > * {
+        margin: 10px 5px;
+    }
+    .OutputContainer{
+        padding: 10px;
+        border: 1px solid black;
+        background: rgba(241, 241, 195, 0.5)
+    }
+}
+
+.treeJson{
+    white-space: pre-wrap;
+    padding: 15px;
+    border: 1px solid;
+}
